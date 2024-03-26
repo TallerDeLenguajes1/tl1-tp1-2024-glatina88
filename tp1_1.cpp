@@ -2,6 +2,12 @@
 
 int main()
 {
-    printf("Hola mundo");
+    int var1= 10;
+    int *puntero= &var1;
+    printf("%d\n", *puntero);
+    printf("%d\n", puntero);
+    printf("%d\n", &var1);
+    printf("%d\n", &puntero);
+    printf("%d\n", sizeof(var1));
     return 0;
 }
